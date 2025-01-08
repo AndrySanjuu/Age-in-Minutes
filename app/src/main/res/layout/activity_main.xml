@@ -49,6 +49,7 @@
         android:backgroundTint="@color/bgBtnColor"/>
 
     <TextView
+        android:id="@+id/tvSelectedDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -66,13 +67,14 @@
         android:textStyle="bold"/>
 
     <TextView
+        android:id="@+id/tvMinutesDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="123456"
         android:textColor="@color/redColor"
         android:textSize="30sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
